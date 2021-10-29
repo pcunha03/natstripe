@@ -1,0 +1,15 @@
+import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
+import { registerElement } from "@nativescript/angular";
+import { DIRECTIVES } from "./nativescript-stripe.directives";
+registerElement("CreditCardView", () => require("@triniwiz/nativescript-stripe").CreditCardView);
+// @ts-ignore
+export class CreditCardViewModule {
+}
+CreditCardViewModule.decorators = [
+    { type: NgModule, args: [{
+                declarations: [DIRECTIVES],
+                exports: [DIRECTIVES],
+                schemas: [NO_ERRORS_SCHEMA]
+            },] }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9pbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQUUsUUFBUSxFQUFFLGdCQUFnQixFQUFFLE1BQU0sZUFBZSxDQUFDO0FBQzNELE9BQU8sRUFBRSxlQUFlLEVBQUUsTUFBTSx1QkFBdUIsQ0FBQztBQUN4RCxPQUFPLEVBQUUsVUFBVSxFQUFFLE1BQU0sa0NBQWtDLENBQUM7QUFFOUQsZUFBZSxDQUFDLGdCQUFnQixFQUFFLEdBQUcsRUFBRSxDQUFDLE9BQU8sQ0FBQywrQkFBK0IsQ0FBQyxDQUFDLGNBQWMsQ0FBQyxDQUFDO0FBT2pHLGFBQWE7QUFDYixNQUFNLE9BQU8sb0JBQW9COzs7WUFOaEMsUUFBUSxTQUFDO2dCQUNSLFlBQVksRUFBRSxDQUFDLFVBQVUsQ0FBQztnQkFDMUIsT0FBTyxFQUFFLENBQUMsVUFBVSxDQUFDO2dCQUNyQixPQUFPLEVBQUUsQ0FBQyxnQkFBZ0IsQ0FBQzthQUM1QiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IE5nTW9kdWxlLCBOT19FUlJPUlNfU0NIRU1BIH0gZnJvbSBcIkBhbmd1bGFyL2NvcmVcIjtcbmltcG9ydCB7IHJlZ2lzdGVyRWxlbWVudCB9IGZyb20gXCJAbmF0aXZlc2NyaXB0L2FuZ3VsYXJcIjtcbmltcG9ydCB7IERJUkVDVElWRVMgfSBmcm9tIFwiLi9uYXRpdmVzY3JpcHQtc3RyaXBlLmRpcmVjdGl2ZXNcIjtcblxucmVnaXN0ZXJFbGVtZW50KFwiQ3JlZGl0Q2FyZFZpZXdcIiwgKCkgPT4gcmVxdWlyZShcIkB0cmluaXdpei9uYXRpdmVzY3JpcHQtc3RyaXBlXCIpLkNyZWRpdENhcmRWaWV3KTtcblxuQE5nTW9kdWxlKHtcbiAgZGVjbGFyYXRpb25zOiBbRElSRUNUSVZFU10sXG4gIGV4cG9ydHM6IFtESVJFQ1RJVkVTXSxcbiAgc2NoZW1hczogW05PX0VSUk9SU19TQ0hFTUFdXG59KVxuLy8gQHRzLWlnbm9yZVxuZXhwb3J0IGNsYXNzIENyZWRpdENhcmRWaWV3TW9kdWxlIHsgfSJdfQ==

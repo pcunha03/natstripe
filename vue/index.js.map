@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../packages/nativescript-stripe/vue/index.ts"],"names":[],"mappings":"AAAA,eAAe;IACd,OAAO,CAAC,GAAG;QACV,GAAG,CAAC,eAAe,CAAC,gBAAgB,EAAE,GAAG,EAAE,CAAC,OAAO,CAAC,KAAK,CAAC,CAAC,cAAc,CAAC,CAAC;IAC5E,CAAC;CACD,CAAA"}

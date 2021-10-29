@@ -1,0 +1,11 @@
+import { Directive } from "@angular/core";
+// @ts-ignore
+export class CreditCardViewDirective {
+}
+CreditCardViewDirective.decorators = [
+    { type: Directive, args: [{
+                selector: "CreditCardView"
+            },] }
+];
+export const DIRECTIVES = CreditCardViewDirective;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmF0aXZlc2NyaXB0LXN0cmlwZS5kaXJlY3RpdmVzLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vbmF0aXZlc2NyaXB0LXN0cmlwZS5kaXJlY3RpdmVzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNBLE9BQU8sRUFBRSxTQUFTLEVBQUUsTUFBTSxlQUFlLENBQUM7QUFLMUMsYUFBYTtBQUNiLE1BQU0sT0FBTyx1QkFBdUI7OztZQUpuQyxTQUFTLFNBQUM7Z0JBQ1AsUUFBUSxFQUFFLGdCQUFnQjthQUM3Qjs7QUFJRCxNQUFNLENBQUMsTUFBTSxVQUFVLEdBQUcsdUJBQXVCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJcbmltcG9ydCB7IERpcmVjdGl2ZSB9IGZyb20gXCJAYW5ndWxhci9jb3JlXCI7XG5cbkBEaXJlY3RpdmUoe1xuICAgIHNlbGVjdG9yOiBcIkNyZWRpdENhcmRWaWV3XCJcbn0pXG4vLyBAdHMtaWdub3JlXG5leHBvcnQgY2xhc3MgQ3JlZGl0Q2FyZFZpZXdEaXJlY3RpdmUgeyB9XG5cbmV4cG9ydCBjb25zdCBESVJFQ1RJVkVTID0gQ3JlZGl0Q2FyZFZpZXdEaXJlY3RpdmU7Il19

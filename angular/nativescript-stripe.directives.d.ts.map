@@ -1,0 +1,1 @@
+{"version":3,"file":"nativescript-stripe.directives.d.ts","sources":["nativescript-stripe.directives.d.ts"],"names":[],"mappings":";AAAA;;;AACA;AACA","sourcesContent":["export declare class CreditCardViewDirective {\n}\nexport declare const DIRECTIVES: typeof CreditCardViewDirective;\n"]}
